@@ -12,5 +12,11 @@ function getComputerChoice()
     return choices[randomNumberGenerator()];
 }
 
+function getHumanChoice()
+{
+    const choices = ["rock", "paper", "scissors"];
+    return choices[randomNumberGenerator()];
+}
+
 console.log(getComputerChoice())
 
