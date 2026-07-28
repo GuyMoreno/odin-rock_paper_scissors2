@@ -1,16 +1,16 @@
 console.log("Hello, world!!!!!!!!!!!!")
 
-const choices = ["rock", "paper", "scissors"]
 
-function randomer()
+function randomNumberGenerator()
 {
-    return(Math.random());
+    return(Math.floor(Math.random()*3));
 }
 
 function getComputerChoice()
 {
-
-
+    const choices = ["rock", "paper", "scissors"];
+    return choices[randomNumberGenerator()];
 }
 
-console.log(randomer());
+console.log(getComputerChoice())
+
