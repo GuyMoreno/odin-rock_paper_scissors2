@@ -14,9 +14,13 @@ function getComputerChoice()
 
 function getHumanChoice()
 {
-    const choices = ["rock", "paper", "scissors"];
-    return choices[randomNumberGenerator()];
+    const choice = prompt("Enter your choice: rock, paper, or scissors")
+    return choice;
 }
 
+let humanScore = 0;
+let computerScore = 0;
+
 console.log(getComputerChoice())
+console.log(getHumanChoice())
 
