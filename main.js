@@ -44,5 +44,10 @@ if (beats[humanChoice] === computerChoice) {
   console.log(`You win! ${humanChoice} beats ${computerChoice}`);
   humanScore++;
 } 
+
+else {
+  console.log(`Computer wins! ${computerChoice} beats ${humanChoice}`);
+  computerScore++;
+}
 }
 
